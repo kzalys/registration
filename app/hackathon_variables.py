@@ -14,19 +14,19 @@ HACKATHON_DESCRIPTION = 'HackAssistant is an organization to mantain ' \
 # Domain where application is deployed, can be set by env variable
 HACKATHON_DOMAIN = os.environ.get('DOMAIN', 'localhost:8000')
 # Hackathon contact email: where should all hackers contact you. It will also be used as a sender for all emails
-HACKATHON_CONTACT_EMAIL = 'contact@gerard.space'
+HACKATHON_CONTACT_EMAIL = 'contact@hacksoc.com'
 # Hackathon logo url, will be used on all emails
-HACKATHON_LOGO_URL = 'https://avatars2.githubusercontent.com/u/33712329?s=200&v=4'
+HACKATHON_LOGO_URL = 'https://scontent-waw1-1.xx.fbcdn.net/v/t1.0-9/16939013_1269791483102772_5192019247591528681_n.png?_nc_cat=0&oh=543c592337a5791be3f24cd82395da42&oe=5C2F2A57'
 
 HACKATHON_OG_IMAGE = 'https://hackcu.org/img/hackcu_ogimage870x442.png'
 # (OPTIONAL) Track visits on your website
 # HACKATHON_GOOGLE_ANALYTICS = 'UA-7777777-2'
 # (OPTIONAL) Hackathon twitter user
-HACKATHON_TWITTER_ACCOUNT = 'casassaez'
+HACKATHON_TWITTER_ACCOUNT = 'greatunihack'
 # (OPTIONAL) Hackathon Facebook page
-HACKATHON_FACEBOOK_PAGE = 'casassaez'
+HACKATHON_FACEBOOK_PAGE = 'GreatUniHack'
 # (OPTIONAL) Github Repo for this project (so meta)
-HACKATHON_GITHUB_REPO = 'https://github.com/hackassistant/registration/'
+HACKATHON_GITHUB_REPO = 'https://github.com/kzalys/registration/'
 
 # (OPTIONAL) Applications deadline
 # HACKATHON_APP_DEADLINE = timezone.datetime(2018, 2, 24, 3, 14, tzinfo=timezone.pytz.timezone(TIME_ZONE))
