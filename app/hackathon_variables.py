@@ -3,11 +3,11 @@ import os
 
 from django.utils import timezone
 
-HACKATHON_NAME = 'HackAssistant'
+HACKATHON_NAME = 'GreatUniHack'
 # What's the name for the application
-HACKATHON_APPLICATION_NAME = 'HackAssistant registration'
+HACKATHON_APPLICATION_NAME = 'GreatUniHack registration'
 # Hackathon timezone
-TIME_ZONE = 'MST'
+TIME_ZONE = 'UTC'
 # This description will be used on the html and sharing meta tags
 HACKATHON_DESCRIPTION = 'HackAssistant is an organization to mantain ' \
                         'a few open-source projects related with hackathon management'
@@ -48,7 +48,7 @@ HACKATHON_DEV_EMAILS = []
 
 # Reimbursement configuration
 REIMBURSEMENT_ENABLED = True
-CURRENCY = '$'
+CURRENCY = '£'
 REIMBURSEMENT_EXPIRY_DAYS = 5
 REIMBURSEMENT_REQUIREMENTS = 'You have to submit a project and demo it during the event in order to get reimbursed'
 REIMBURSEMENT_DEADLINE = timezone.datetime(2018, 2, 24, 3, 14, tzinfo=timezone.pytz.timezone(TIME_ZONE))
